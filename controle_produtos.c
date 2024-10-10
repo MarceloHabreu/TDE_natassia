@@ -36,7 +36,7 @@ int buscarProduto(int codigo){
   return -1;
 }
 
-// * Criando a funcão de delete/deletar produto
+// * Criando a funcão de delete
 void deletarProduto(int codigo){
   int index = buscarProduto(codigo);
   if (index != -1){
